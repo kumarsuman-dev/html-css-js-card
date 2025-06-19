@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <img id="product-image" src="img/2.png" alt="Product Image" />
+    <h2 id="name">OnePlus Nord Buds</h2>
+    <p id="sprice">₹2,799</p>
+    <p id="rating">Rating: ★★★★☆</p>
+
+    <!-- Color Buttons -->
+    <div class="color-buttons">
+      <div class="color-circle red" onclick="changeImage('img/2.png')"></div>
+      <div class="color-circle black" onclick="changeImage('img/3.png')"></div>
+      <div class="color-circle white" onclick="changeImage('img/5.png')"></div>
+      <div class="color-circle blue" onclick="changeImage('img/4.png')"></div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="buttons">
+      <button id="add-to-cart">Add to Cart</button>
+      <button id="buy-now">Buy Now</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
